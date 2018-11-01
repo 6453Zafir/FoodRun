@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33873628106820608}
   - component: {fileID: 65583416486291282}
   - component: {fileID: 23363468754667464}
+  - component: {fileID: 114929113921333968}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -56,6 +57,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4017948348085422}
   - component: {fileID: 114709579065052830}
+  - component: {fileID: 65883782643390632}
   m_Layer: 0
   m_Name: Obstacle3
   m_TagString: road
@@ -70,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1533231756351888}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 44.100464}
+  m_LocalPosition: {x: 0, y: 0, z: 20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4778944648379316}
@@ -85,7 +87,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1135755791860222}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.64, y: 0, z: -0.010002136}
+  m_LocalPosition: {x: 1.7, y: 0, z: 0}
   m_LocalScale: {x: 1.6, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 4017948348085422}
@@ -212,6 +214,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65883782643390632
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1533231756351888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.9496446, y: 3.7971334, z: 9.689468}
+  m_Center: {x: -0.11284709, y: 1.3985667, z: 0.056289673}
 --- !u!114 &114709579065052830
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -221,5 +235,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 591a230bbaab7444da9ec9ca775e5df0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114929113921333968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135755791860222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3955c03b4260540f1bee07f78b0aab79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

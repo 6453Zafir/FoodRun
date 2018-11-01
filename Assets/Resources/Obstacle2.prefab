@@ -38,6 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4952618921309518}
   - component: {fileID: 114192838491166432}
+  - component: {fileID: 65980839250104746}
   m_Layer: 0
   m_Name: Obstacle2
   m_TagString: road
@@ -55,6 +56,7 @@ GameObject:
   - component: {fileID: 4621881813151620}
   - component: {fileID: 33018629752469984}
   - component: {fileID: 65563648321603220}
+  - component: {fileID: 114111151646216878}
   - component: {fileID: 23798387844540516}
   m_Layer: 0
   m_Name: Cube
@@ -96,7 +98,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1564981792196326}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 34.100464}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4865205137468278}
@@ -212,6 +214,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65980839250104746
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564981792196326}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.9496446, y: 3.7971334, z: 9.689468}
+  m_Center: {x: -0.11284709, y: 1.3985667, z: 0.056289673}
+--- !u!114 &114111151646216878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1646240199608054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3955c03b4260540f1bee07f78b0aab79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114192838491166432
 MonoBehaviour:
   m_ObjectHideFlags: 1
